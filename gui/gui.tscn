@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdiphwdtyhf0l"]
+
+[ext_resource type="Script" path="res://gui/gui.gd" id="1_dad5p"]
+[ext_resource type="PackedScene" uid="uid://c7y5lowbv6ojb" path="res://gui/start_menu/start_menu.tscn" id="2_shkcp"]
+
+[node name="GUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dad5p")
+metadata/_edit_use_anchors_ = true
+
+[node name="Start" parent="." instance=ExtResource("2_shkcp")]
